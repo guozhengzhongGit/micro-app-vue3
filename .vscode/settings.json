@@ -1,0 +1,23 @@
+{
+  "eslint.format.enable": true,
+  // 每次保存的时候, 自动将代码按eslint格式进行修复
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  },
+  "stylelint.validate": ["css", "less", "postcss", "vue", "scss"],
+  "eslint.validate": ["javascript", "javascriptreact", "html", "vue"],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  }
+}
